@@ -1,0 +1,11 @@
+vim-gschem -- gschem syntax highlighting in vim
+
+- add comments to 'hi link' items
+- determine a text string which unambiguously says that file is gschem's
+- add paths support
+- model-name - how to correctly show this attribute?
+- should I highlight all 'name=value' texts as attributes?
+- add support of old gschem formats?
+- text highlighting for the text size of 1 doesn't work but the text is displayed in gschem; should the spec, determining 2 as the least text size, be changed?
+- the highlighting doesn't work with default gnd-?.sym symbols, they contain trailing spaces; should we support them?
+- add Makefile to install vim syntax files?
