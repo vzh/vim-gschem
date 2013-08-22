@@ -1,0 +1,11 @@
+vim-gschem - gEDA gschem syntax highlighting in Vim
+
+Installation:
+  Copy 'syntax/gschem.vim' into your '~/.vim/syntax/' directory.
+  Optionally you can install 'ftdetect/gschem.vim' into your
+    '~/.vim/ftdetect/' directory.
+Usage:
+  If 'ftdetect/gschem.vim' is installed
+  1) do nothing, it should work automatically
+  else
+  2) type the command in VIM ':set ft=gschem'
